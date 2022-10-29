@@ -1,0 +1,118 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+    
+}
+.principal{
+    
+    color: #111;
+    height: 100vh;
+	width: 100%;
+    padding: 100px 0px;
+
+    /* width: 100%;
+    height: 100vh;    
+    display: flex;    */
+    /* background-image: url("./") ; */
+    /* background-image:url("https://images.canaldapeca.com.br/produtos/gg/56/18/piso-vinilico-lvt-injoy-lichia-caixa-com-16-reguas-192-x-123cm-378m-7391856-1592508895083.jpg");     */
+  
+  
+}
+
+.button{
+	background-color:#a88726;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.button:hover{
+	background-color: transparent;
+	border: 2px solid #a88726;
+	cursor: pointer;
+}
+
+.title, .titlee{
+    font-size: 42px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 600;
+}
+.subtitle {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.orcamento{
+    color: #eee;
+    font-size:600;
+
+}
+
+.orcamento:hover{
+    color: chartreuse;
+}
+
+h3, .orcamento{
+    font-size: 40px;
+}
+
+
+.servico{
+    background-color: #eee;
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	/* width: 500px; */
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #a88726;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:#a88726;
+	bottom: 35px;
+	font-size: 14px; 
+}
+
